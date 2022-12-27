@@ -1,0 +1,20 @@
+@media screen and (min-width:720px){
+	.containerParent {
+		transform:scale(1.8);
+	}
+	.dataPageBody {
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+	.data_container {
+		max-width:600px;
+		width:500px;
+		margin-top:10%;
+	}
+	.flex{
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+	}
+}

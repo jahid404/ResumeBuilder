@@ -1,0 +1,302 @@
+/*-----home start-----*/
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family:Arial,sans-serif;
+}
+.homePageBody,.supportPageBody {
+	background-color:#161616;
+	color:white;
+}
+.mainHomePage,.supportPageBody {
+	width:100vw;
+	height:90vh;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.downloadPDF {
+ 	text-align:center;
+ 	margin-top:1rem;
+}
+.downloadPDF input{
+	margin:auto;
+	background-color:#1e88e5;
+	color:white;
+	border:none;
+	padding:5px 10px;
+	border-radius:5px;
+	width:100px;
+	height:35px;
+	outline:none;
+}
+.padding-left-8px{
+	padding-left:5px;
+}
+.color{
+	color:#ff1744;
+}
+.title {
+	font-size:1.5rem;
+}
+.tagline {
+	font-size:0.9rem;
+	margin-top:8px;
+	text-transform:uppercase;
+}
+.buildBtn,.hireMe button{
+	outline:none;
+	padding:10px;
+	border-radius:5px;
+	border:1px solid red;
+	background:transparent;
+	font-size:0.9rem;
+	margin-top:15px;
+	color:#ff1744;
+	font-weight:bold;
+	transition:0.3s all ease;
+}
+.buildBtn:hover,.hireMe button:hover{
+	background-color:#ff1744;
+	color:black;
+}
+.supportMe {
+	font-size:0.8rem;
+	margin-top:50px;
+	display:inline-block;
+	transition:0.3s;
+	border:1px solid transparent;
+	padding-bottom:5px;
+}
+.supportMe:hover {
+	border-bottom:1px solid #ff1744;
+}
+.supportMe a{
+	color:white;
+	text-decoration:none;
+}
+.supportMe p img {
+	margin-left:8px;
+	filter: brightness(0) saturate(100%) invert(24%) sepia(67%) saturate(5736%) hue-rotate(338deg) brightness(101%) contrast(106%);
+	
+}
+/*-----home end-----*/
+
+/*-----data input page start-----*/
+.data_container {
+	border:0.5px solid #ddd;
+	box-shadow:0px 2px 10px -5px rgba(90,90,90,0.7);
+	border-radius:6px;
+	margin:1.5rem auto;
+	padding:0.8rem;
+	transition: 0.5s all ease;
+	background-color:white;
+	color:black;
+	width: 90%;
+}
+.data_DOB div{
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+}
+.margin-top-4px{
+	margin-top:4px;
+}
+.font-09-rem{
+	font-size:0.9rem;
+	font-weight:bold;
+}
+.inputBox{
+	outline:none;
+	border:1px solid #bbb;
+	border-radius:5px;
+	padding:5px 8px;
+	font-size:0.9rem;
+	width:100%;
+	transition:0.3s;
+	color:#555;
+}
+/*.data_name input:focus,
+.data_f_name input:focus,
+.data_m_name input:focus,
+.data_gender input:focus,
+.data_marital_status input:focus,
+.data_nationality input:focus,
+.data_pre_address input:focus,
+.data_per_address input:focus,
+.data_blood_group input:focus,
+.data_religion input:focus,
+.data_education input:focus,
+.data_experience input:focus,
+.data_skills input:focus,
+.data_language input:focus*/
+input:focus {
+	box-shadow:0px 3px 8px -4px rgba(100,100,100,0.8);
+}
+
+.data_education div:nth-child(1),.data_experience div:nth-child(1) {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.educationInfo {
+	margin-top:7px;
+}
+.educationInfo div{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.experienceInfo {
+	margin-top:7px;
+}
+.submit {
+	text-align:center;
+}
+.submit input{
+	margin:1rem auto;
+	background-color:#1e88e5;
+	color:white;
+	border:none;
+	padding:5px 10px;
+	border-radius:5px;
+	width:100px;
+	height:35px;
+	outline:none;
+}
+/*-----data input page end-----*/
+
+/*-----resume start-----*/
+.resumeMainPage {
+	height:;
+	margin-bottom:;
+	width:100%;
+	padding:0 3.5%;
+	padding-top:3.5%;
+}
+.top {
+	display:flex;
+	position:relative;
+}
+.top div:nth-child(1) {
+	width:90%;
+}
+.CV_title {
+	font-size:1.2rem;
+	text-align:center;
+	padding:5px 10px;
+	width:70%;
+}
+.personal_info_table {
+	width:100%;
+}
+.personal_info_table th{
+	width:28%;
+	padding-left:0.5rem;
+	text-align:left;
+}
+caption, h3{
+	text-align:left;
+	margin:6px 0;
+	padding:3px 5px;
+	font-weight:bold;
+	font-size:1rem;
+	margin-bottom:8px;
+}
+th,td{
+	text-align:left;
+	font-size:0.85rem;
+	padding-top:3px;
+}
+th:nth-child(1) {
+	padding-top:0;
+}
+.photo {
+	//position:absolute;
+	//right:0;
+	margin-left:15px;
+	margin-top:20px;
+	width:90px;
+	height:105px;
+	border:1px solid #ddd;
+	position:relative;
+}
+.photo p{
+	position:absolute;
+	font-size:0.9rem;
+	transform:translateX(50%);
+	z-index:-1;
+	color:#666;
+}
+.photo img{
+	width:100%;
+	height:100%;
+}
+.qualification {
+	margin-top:15px;
+}
+.qualification_table {
+	width:100%;
+}
+.qualification_table th,.qualification_table td{
+	text-align:center;
+}
+.qualification_table tr th{
+	background-color:#ccc;
+}
+.experience {
+	margin-top:1rem;
+}
+.experience p,.languageInfo {
+	padding:0.3rem 0.8rem;
+}
+.skills_table, .contact_table {
+	width:100%;
+}
+.skills_table th, .contact_table th{
+	width:24%;
+	padding-left:0.5rem;
+}
+
+.signature {
+	margin-top:15px;
+	position:relative;
+	display:flex;
+	justify-content:space-between;
+}
+.signature_container {
+	width:165px;
+	text-align:center;
+}
+.signature_container p{
+	border-top:1px solid black;
+	text-align:center;
+	padding-top:5px;
+	width:100%;
+}
+/*-----resume end-----*/
+
+/*-----support page start-----*/
+.supportPageContainer div h2 {
+	text-transform:uppercase;
+}
+.paymentInfo {
+	margin-top:10px;
+	text-align:left;
+}
+.paymentInfo p:nth-child(2) {
+	margin-top:5px;
+}
+.or {
+	margin:10px auto;
+}
+.hireMe span {
+	font-size:0.8rem;
+}
+.hireMe button{
+	border:1px solid red;
+	margin:0 7px;
+}
+/*-----support page end------*/
